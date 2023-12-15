@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F018087A24F3B015005ABE90 /* AppStoreReviewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F018087924F3B015005ABE90 /* AppStoreReviewManager.swift */; };
+		F018087C24F3B053005ABE90 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = F018087B24F3B053005ABE90 /* UserDefaults.swift */; };
+		F018087E24FA4FE8005ABE90 /* ScoreBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F018087D24FA4FE7005ABE90 /* ScoreBoard.swift */; };
+		F018088024FD41AE005ABE90 /* LevelBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F018087F24FD41AE005ABE90 /* LevelBoard.swift */; };
+		F018088224FD43CB005ABE90 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F018088124FD43CB005ABE90 /* ActionButton.swift */; };
+		F018088424FF989F005ABE90 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F018088324FF989E005ABE90 /* MenuScene.swift */; };
+		F018088624FF98FC005ABE90 /* sknodeExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F018088524FF98FC005ABE90 /* sknodeExt.swift */; };
+		F018088824FF9B00005ABE90 /* SpriteKitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F018088724FF9B00005ABE90 /* SpriteKitButton.swift */; };
+		F018088A24FF9CFE005ABE90 /* LevelScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F018088924FF9CFE005ABE90 /* LevelScene.swift */; };
+		F018088C2500F1B6005ABE90 /* Popup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F018088B2500F1B6005ABE90 /* Popup.swift */; };
+		F025C9F524BAE9A20087B4CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F025C9F424BAE9A20087B4CA /* AppDelegate.swift */; };
+		F025C9F924BAE9A20087B4CA /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = F025C9F824BAE9A20087B4CA /* Actions.sks */; };
+		F025C9FB24BAE9A20087B4CA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F025C9FA24BAE9A20087B4CA /* GameScene.swift */; };
+		F025C9FD24BAE9A20087B4CA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F025C9FC24BAE9A20087B4CA /* GameViewController.swift */; };
+		F025CA0024BAE9A20087B4CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F025C9FE24BAE9A20087B4CA /* Main.storyboard */; };
+		F025CA0224BAE9A70087B4CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F025CA0124BAE9A70087B4CA /* Assets.xcassets */; };
+		F025CA0524BAE9A70087B4CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F025CA0324BAE9A70087B4CA /* LaunchScreen.storyboard */; };
+		F025CA0D24BAE9FB0087B4CA /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = F025CA0C24BAE9FB0087B4CA /* Level.swift */; };
+		F025CA6A24BAF4780087B4CA /* Letter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F025CA6924BAF4780087B4CA /* Letter.swift */; };
+		F025CA6C24BAF5F40087B4CA /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = F025CA6B24BAF5F40087B4CA /* Array2D.swift */; };
+		F025CA6E24BAF6FF0087B4CA /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F025CA6D24BAF6FF0087B4CA /* Tile.swift */; };
+		F025CA7024BAFA5B0087B4CA /* LetterCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F025CA6F24BAFA5B0087B4CA /* LetterCard.swift */; };
+		F025CA7324BB0E0E0087B4CA /* wordList.plist in Resources */ = {isa = PBXBuildFile; fileRef = F025CA7224BB0E0E0087B4CA /* wordList.plist */; };
+		F025CA7524C0534F0087B4CA /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = F025CA7424C0534F0087B4CA /* Util.swift */; };
+		F02C65C6250B4FCB00473861 /* retry.wav in Resources */ = {isa = PBXBuildFile; fileRef = F02C65C5250B4FCB00473861 /* retry.wav */; };
+		F02C65C8250B4FD300473861 /* pass.wav in Resources */ = {isa = PBXBuildFile; fileRef = F02C65C7250B4FD200473861 /* pass.wav */; };
+		F0EEEBA32B11E0FE0001147A /* categoryList.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0EEEBA22B11E0FE0001147A /* categoryList.plist */; };
+		F0F501052AECB75E00ABDCF2 /* Grid.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F0F501042AECB75E00ABDCF2 /* Grid.atlas */; };
+		F0F501092AECF22900ABDCF2 /* LearnExamPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F501082AECF22900ABDCF2 /* LearnExamPopup.swift */; };
+		F0F5010D2B075EDE00ABDCF2 /* LearnScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F5010C2B075EDE00ABDCF2 /* LearnScene.swift */; };
+		F0FE637724C6EC4800455FBD /* selected.wav in Resources */ = {isa = PBXBuildFile; fileRef = F0FE637624C6EC4800455FBD /* selected.wav */; };
+		F0FE637924C6EC5F00455FBD /* levelup.wav in Resources */ = {isa = PBXBuildFile; fileRef = F0FE637824C6EC5F00455FBD /* levelup.wav */; };
+		F0FE637B24C6EC7A00455FBD /* success.wav in Resources */ = {isa = PBXBuildFile; fileRef = F0FE637A24C6EC7A00455FBD /* success.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F018087924F3B015005ABE90 /* AppStoreReviewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreReviewManager.swift; sourceTree = "<group>"; };
+		F018087B24F3B053005ABE90 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		F018087D24FA4FE7005ABE90 /* ScoreBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreBoard.swift; sourceTree = "<group>"; };
+		F018087F24FD41AE005ABE90 /* LevelBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelBoard.swift; sourceTree = "<group>"; };
+		F018088124FD43CB005ABE90 /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+		F018088324FF989E005ABE90 /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		F018088524FF98FC005ABE90 /* sknodeExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sknodeExt.swift; sourceTree = "<group>"; };
+		F018088724FF9B00005ABE90 /* SpriteKitButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitButton.swift; sourceTree = "<group>"; };
+		F018088924FF9CFE005ABE90 /* LevelScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelScene.swift; sourceTree = "<group>"; };
+		F018088B2500F1B6005ABE90 /* Popup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popup.swift; sourceTree = "<group>"; };
+		F025C9F124BAE9A20087B4CA /* Test Your Chinese.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test Your Chinese.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F025C9F424BAE9A20087B4CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F025C9F824BAE9A20087B4CA /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		F025C9FA24BAE9A20087B4CA /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F025C9FC24BAE9A20087B4CA /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		F025C9FF24BAE9A20087B4CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F025CA0124BAE9A70087B4CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F025CA0424BAE9A70087B4CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F025CA0624BAE9A70087B4CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F025CA0C24BAE9FB0087B4CA /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		F025CA6924BAF4780087B4CA /* Letter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Letter.swift; sourceTree = "<group>"; };
+		F025CA6B24BAF5F40087B4CA /* Array2D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
+		F025CA6D24BAF6FF0087B4CA /* Tile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		F025CA6F24BAFA5B0087B4CA /* LetterCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterCard.swift; sourceTree = "<group>"; };
+		F025CA7224BB0E0E0087B4CA /* wordList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = wordList.plist; sourceTree = "<group>"; };
+		F025CA7424C0534F0087B4CA /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		F02C65C5250B4FCB00473861 /* retry.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = retry.wav; sourceTree = "<group>"; };
+		F02C65C7250B4FD200473861 /* pass.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pass.wav; sourceTree = "<group>"; };
+		F0EEEBA22B11E0FE0001147A /* categoryList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = categoryList.plist; sourceTree = "<group>"; };
+		F0F501042AECB75E00ABDCF2 /* Grid.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Grid.atlas; sourceTree = "<group>"; };
+		F0F501082AECF22900ABDCF2 /* LearnExamPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnExamPopup.swift; sourceTree = "<group>"; };
+		F0F5010C2B075EDE00ABDCF2 /* LearnScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnScene.swift; sourceTree = "<group>"; };
+		F0FE637624C6EC4800455FBD /* selected.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = selected.wav; sourceTree = "<group>"; };
+		F0FE637824C6EC5F00455FBD /* levelup.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = levelup.wav; sourceTree = "<group>"; };
+		F0FE637A24C6EC7A00455FBD /* success.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = success.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F025C9EE24BAE9A20087B4CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F025C9E824BAE9A20087B4CA = {
+			isa = PBXGroup;
+			children = (
+				F025C9F324BAE9A20087B4CA /* findChineseWords */,
+				F025C9F224BAE9A20087B4CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F025C9F224BAE9A20087B4CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F025C9F124BAE9A20087B4CA /* Test Your Chinese.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F025C9F324BAE9A20087B4CA /* findChineseWords */ = {
+			isa = PBXGroup;
+			children = (
+				F02C65C7250B4FD200473861 /* pass.wav */,
+				F02C65C5250B4FCB00473861 /* retry.wav */,
+				F018088124FD43CB005ABE90 /* ActionButton.swift */,
+				F025C9F824BAE9A20087B4CA /* Actions.sks */,
+				F025C9F424BAE9A20087B4CA /* AppDelegate.swift */,
+				F018087924F3B015005ABE90 /* AppStoreReviewManager.swift */,
+				F025CA6B24BAF5F40087B4CA /* Array2D.swift */,
+				F025CA0124BAE9A70087B4CA /* Assets.xcassets */,
+				F025C9FA24BAE9A20087B4CA /* GameScene.swift */,
+				F0F5010C2B075EDE00ABDCF2 /* LearnScene.swift */,
+				F018088B2500F1B6005ABE90 /* Popup.swift */,
+				F0F501082AECF22900ABDCF2 /* LearnExamPopup.swift */,
+				F025C9FC24BAE9A20087B4CA /* GameViewController.swift */,
+				F025CA0624BAE9A70087B4CA /* Info.plist */,
+				F025CA0324BAE9A70087B4CA /* LaunchScreen.storyboard */,
+				F025CA6924BAF4780087B4CA /* Letter.swift */,
+				F0F501042AECB75E00ABDCF2 /* Grid.atlas */,
+				F025CA6F24BAFA5B0087B4CA /* LetterCard.swift */,
+				F025CA0C24BAE9FB0087B4CA /* Level.swift */,
+				F018087F24FD41AE005ABE90 /* LevelBoard.swift */,
+				F018088924FF9CFE005ABE90 /* LevelScene.swift */,
+				F0FE637824C6EC5F00455FBD /* levelup.wav */,
+				F025C9FE24BAE9A20087B4CA /* Main.storyboard */,
+				F018088324FF989E005ABE90 /* MenuScene.swift */,
+				F018087D24FA4FE7005ABE90 /* ScoreBoard.swift */,
+				F0FE637624C6EC4800455FBD /* selected.wav */,
+				F018088524FF98FC005ABE90 /* sknodeExt.swift */,
+				F018088724FF9B00005ABE90 /* SpriteKitButton.swift */,
+				F0FE637A24C6EC7A00455FBD /* success.wav */,
+				F025CA6D24BAF6FF0087B4CA /* Tile.swift */,
+				F018087B24F3B053005ABE90 /* UserDefaults.swift */,
+				F025CA7424C0534F0087B4CA /* Util.swift */,
+				F025CA7124BB0DED0087B4CA /* wordList */,
+			);
+			path = findChineseWords;
+			sourceTree = "<group>";
+		};
+		F025CA7124BB0DED0087B4CA /* wordList */ = {
+			isa = PBXGroup;
+			children = (
+				F025CA7224BB0E0E0087B4CA /* wordList.plist */,
+				F0EEEBA22B11E0FE0001147A /* categoryList.plist */,
+			);
+			path = wordList;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F025C9F024BAE9A20087B4CA /* Chnese Word Puzzle - Elementary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F025CA0924BAE9A70087B4CA /* Build configuration list for PBXNativeTarget "Chnese Word Puzzle - Elementary" */;
+			buildPhases = (
+				F025C9ED24BAE9A20087B4CA /* Sources */,
+				F025C9EE24BAE9A20087B4CA /* Frameworks */,
+				F025C9EF24BAE9A20087B4CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chnese Word Puzzle - Elementary";
+			productName = chineseWordPuzzle;
+			productReference = F025C9F124BAE9A20087B4CA /* Test Your Chinese.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F025C9E924BAE9A20087B4CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Alvis Poon";
+				TargetAttributes = {
+					F025C9F024BAE9A20087B4CA = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = F025C9EC24BAE9A20087B4CA /* Build configuration list for PBXProject "Chnese Word Puzzle - Elementary" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F025C9E824BAE9A20087B4CA;
+			productRefGroup = F025C9F224BAE9A20087B4CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F025C9F024BAE9A20087B4CA /* Chnese Word Puzzle - Elementary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F025C9EF24BAE9A20087B4CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F025CA0024BAE9A20087B4CA /* Main.storyboard in Resources */,
+				F0FE637724C6EC4800455FBD /* selected.wav in Resources */,
+				F025CA7324BB0E0E0087B4CA /* wordList.plist in Resources */,
+				F0FE637B24C6EC7A00455FBD /* success.wav in Resources */,
+				F0FE637924C6EC5F00455FBD /* levelup.wav in Resources */,
+				F025CA0224BAE9A70087B4CA /* Assets.xcassets in Resources */,
+				F0F501052AECB75E00ABDCF2 /* Grid.atlas in Resources */,
+				F02C65C6250B4FCB00473861 /* retry.wav in Resources */,
+				F025CA0524BAE9A70087B4CA /* LaunchScreen.storyboard in Resources */,
+				F025C9F924BAE9A20087B4CA /* Actions.sks in Resources */,
+				F0EEEBA32B11E0FE0001147A /* categoryList.plist in Resources */,
+				F02C65C8250B4FD300473861 /* pass.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F025C9ED24BAE9A20087B4CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F025C9FB24BAE9A20087B4CA /* GameScene.swift in Sources */,
+				F025CA7524C0534F0087B4CA /* Util.swift in Sources */,
+				F018088824FF9B00005ABE90 /* SpriteKitButton.swift in Sources */,
+				F025CA6C24BAF5F40087B4CA /* Array2D.swift in Sources */,
+				F0F501092AECF22900ABDCF2 /* LearnExamPopup.swift in Sources */,
+				F018087E24FA4FE8005ABE90 /* ScoreBoard.swift in Sources */,
+				F0F5010D2B075EDE00ABDCF2 /* LearnScene.swift in Sources */,
+				F018088024FD41AE005ABE90 /* LevelBoard.swift in Sources */,
+				F018087C24F3B053005ABE90 /* UserDefaults.swift in Sources */,
+				F025C9FD24BAE9A20087B4CA /* GameViewController.swift in Sources */,
+				F025CA6E24BAF6FF0087B4CA /* Tile.swift in Sources */,
+				F025CA6A24BAF4780087B4CA /* Letter.swift in Sources */,
+				F025CA7024BAFA5B0087B4CA /* LetterCard.swift in Sources */,
+				F018088C2500F1B6005ABE90 /* Popup.swift in Sources */,
+				F025CA0D24BAE9FB0087B4CA /* Level.swift in Sources */,
+				F025C9F524BAE9A20087B4CA /* AppDelegate.swift in Sources */,
+				F018088424FF989F005ABE90 /* MenuScene.swift in Sources */,
+				F018087A24F3B015005ABE90 /* AppStoreReviewManager.swift in Sources */,
+				F018088A24FF9CFE005ABE90 /* LevelScene.swift in Sources */,
+				F018088224FD43CB005ABE90 /* ActionButton.swift in Sources */,
+				F018088624FF98FC005ABE90 /* sknodeExt.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F025C9FE24BAE9A20087B4CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F025C9FF24BAE9A20087B4CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F025CA0324BAE9A70087B4CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F025CA0424BAE9A70087B4CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F025CA0724BAE9A70087B4CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F025CA0824BAE9A70087B4CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F025CA0A24BAE9A70087B4CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = 7U4WLYVZTV;
+				INFOPLIST_FILE = findChineseWords/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yydaddy.findChineseWords;
+				PRODUCT_NAME = "Test Your Chinese";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F025CA0B24BAE9A70087B4CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = 7U4WLYVZTV;
+				INFOPLIST_FILE = findChineseWords/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yydaddy.findChineseWords;
+				PRODUCT_NAME = "Test Your Chinese";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F025C9EC24BAE9A20087B4CA /* Build configuration list for PBXProject "Chnese Word Puzzle - Elementary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F025CA0724BAE9A70087B4CA /* Debug */,
+				F025CA0824BAE9A70087B4CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F025CA0924BAE9A70087B4CA /* Build configuration list for PBXNativeTarget "Chnese Word Puzzle - Elementary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F025CA0A24BAE9A70087B4CA /* Debug */,
+				F025CA0B24BAE9A70087B4CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F025C9E924BAE9A20087B4CA /* Project object */;
+}

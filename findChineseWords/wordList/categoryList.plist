@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   categoryList.plist
+   findChineseWords
+
+   Created by Alvis Poon on 25/11/2023.
+   Copyright (c) 2023 Alvis Poon. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+    <key>category</key>
+        
+        <array>
+                <string>交通工具</string>
+                <string>動物1</string>
+                <string>動物2</string>
+                <string>生果</string>
+                <string>食物</string>
+                <string>生活用品</string>
+                <string>衣服</string>
+                <string>玩具</string>
+                <string>顏色</string>
+                <string>身體部位</string>
+                <string>親戚關係</string>
+                <string>節日假期</string>
+                <string>對比</string>
+                <string>活動</string>
+                <string>情感</string>
+                <string>地方</string>
+                <string>自然氣候</string>
+
+        </array>
+ 
+        
+    </dict>
+</plist>

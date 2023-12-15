@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F4AC72BC-C513-48C9-BDE5-83F3F67AF38C"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C9F9FA14-E0DF-4393-886C-847D3B5F5EBD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "findChineseWords/LetterCard.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "init?(coder:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C9F9FA14-E0DF-4393-886C-847D3B5F5EBD - 1a150a38101292f3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Test_Your_Chinese.LetterCard.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Test_Your_Chinese.LetterCard&gt;"
+                  moduleName = "Test Your Chinese"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alvispoon/iOS%20App/yydaddy/findChineseWords/findChineseWords/LetterCard.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "C9F9FA14-E0DF-4393-886C-847D3B5F5EBD - 323f991b086b3771"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Test_Your_Chinese.LetterCard.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Test_Your_Chinese.LetterCard&gt;"
+                  moduleName = "Test Your Chinese"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alvispoon/iOS%20App/yydaddy/findChineseWords/findChineseWords/LetterCard.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "102">
+               </Location>
+               <Location
+                  uuid = "C9F9FA14-E0DF-4393-886C-847D3B5F5EBD - 1a150a38101292f3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Test_Your_Chinese.LetterCard.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Test_Your_Chinese.LetterCard&gt;"
+                  moduleName = "Test Your Chinese"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alvispoon/iOS%20App/yydaddy/findChineseWords/findChineseWords/LetterCard.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "C9F9FA14-E0DF-4393-886C-847D3B5F5EBD - 323f991b086b3771"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Test_Your_Chinese.LetterCard.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Test_Your_Chinese.LetterCard&gt;"
+                  moduleName = "Test Your Chinese"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alvispoon/iOS%20App/yydaddy/findChineseWords/findChineseWords/LetterCard.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C832BE76-8CCE-48AD-82D1-1D8A11406441"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "findChineseWords/Popup.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "PopupButtons"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
